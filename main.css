@@ -57,7 +57,7 @@ padding-bottom: 115px;
 
 .about h1 {
 	font-size: 70px;
-	line-heigh: 76px;
+	line-height: 76px;
 }
 
 .about p {
@@ -80,7 +80,7 @@ padding-bottom: 115px;
 
 .about {
 	 /* ... */
-	 background: url(img/back.png); no-repeat;
+	 background: url(img/back.png), no-repeat;
 	 background-position: center;
 	 background-size: cover;
 }	

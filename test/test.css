@@ -1,0 +1,167 @@
+
+
+body {
+  background-color: #6f9e80;
+  margin: 0;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+@keyframes example {
+    0% {left: 0;}
+    100% {left: 100vw;}
+}
+
+
+img{
+  width: 300px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+	animation-name: example;
+ani
+
+
+body {
+  background-color: #6f9e80;
+  margin: 0;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+@keyframes example {
+    0% {left: 0;}
+    100% {left: 100vw;}
+}
+
+
+img{
+  width: 300px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+	animation-name: example;
+animation-timing-function: 7s;	
+
+
+}
+
+.pause:hover{
+   animation-play-state: paused;
+}
+
+body {
+  background-color: #6f9e80;
+  margin: 0;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+@keyframes example {
+    0% {left: 0;}
+    100% {left: 100vw;}
+}
+
+
+img{
+  width: 300px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+	animation-name: example;
+animation-timing-function: 7s;	
+
+
+}
+
+.pause:hover{
+   animation-play-state: paused;
+}
+
+body {
+  background-color: #6f9e80;
+  margin: 0;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+@keyframes example {
+    0% {left: 0;}
+    100% {left: 100vw;}
+}
+
+
+img{
+  width: 300px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+	animation-name: example;
+animation-timing-function: 7s;	
+
+
+}
+
+.pause:hover{
+   animation-play-state: paused;
+}
+
+body {
+  background-color: #6f9e80;
+  margin: 0;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+@keyframes example {
+    0% {left: 0;}
+    100% {left: 100vw;}
+}
+
+
+img{
+  width: 300px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+	animation-name: example;
+animation-timing-function: 7s;	
+
+
+}
+
+.pause:hover{
+   animation-play-state: paused;
+}
+
+body {
+  background-color: #6f9e80;
+  margin: 0;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+@keyframes example {
+    0% {left: 0;}
+    100% {left: 100vw;}
+}
+
+
+img{
+  width: 300px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+	animation-name: example;
+animation-duration: 10s;
+animation-iteration-count: 2;
+animation-timing-function: linear;}
+
+.pause:hover{
+   animation-play-state: paused;
+}
+}
+
+.pause:hover{
+   animation-play-state: paused;
+}

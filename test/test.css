@@ -1,167 +1,44 @@
-
-
 body {
   background-color: #6f9e80;
   margin: 0;
   font-family: sans-serif;
-  padding: 20px;
-}
+  margin: 10px;
+} 
 
-@keyframes example {
-    0% {left: 0;}
-    100% {left: 100vw;}
-}
-
-
-img{
-  width: 300px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-	animation-name: example;
-ani
-
-
-body {
-  background-color: #6f9e80;
-  margin: 0;
-  font-family: sans-serif;
-  padding: 20px;
-}
-
-@keyframes example {
-    0% {left: 0;}
-    100% {left: 100vw;}
-}
-
-
-img{
-  width: 300px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-	animation-name: example;
-animation-timing-function: 7s;	
-
+div{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 20px;
 
 }
 
-.pause:hover{
-   animation-play-state: paused;
+.sq_5{
+	background-color: #16a085;
+	left: 10px;
+	top: 10px;
+	z-index: 0;
+}
+.sq_4{
+	background-color: #2980b9;
+	left: 30px;
+	top: 30px;
+}
+.sq_3{
+	background-color: #8e44ad;
+	left: 50px;
+	top: 50px;
+}
+.sq_2{
+	background-color: #d35400;
+	left: 70px;
+	top: 70px;
 }
 
-body {
-  background-color: #6f9e80;
-  margin: 0;
-  font-family: sans-serif;
-  padding: 20px;
-}
-
-@keyframes example {
-    0% {left: 0;}
-    100% {left: 100vw;}
-}
-
-
-img{
-  width: 300px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-	animation-name: example;
-animation-timing-function: 7s;	
-
-
-}
-
-.pause:hover{
-   animation-play-state: paused;
-}
-
-body {
-  background-color: #6f9e80;
-  margin: 0;
-  font-family: sans-serif;
-  padding: 20px;
-}
-
-@keyframes example {
-    0% {left: 0;}
-    100% {left: 100vw;}
-}
-
-
-img{
-  width: 300px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-	animation-name: example;
-animation-timing-function: 7s;	
-
-
-}
-
-.pause:hover{
-   animation-play-state: paused;
-}
-
-body {
-  background-color: #6f9e80;
-  margin: 0;
-  font-family: sans-serif;
-  padding: 20px;
-}
-
-@keyframes example {
-    0% {left: 0;}
-    100% {left: 100vw;}
-}
-
-
-img{
-  width: 300px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-	animation-name: example;
-animation-timing-function: 7s;	
-
-
-}
-
-.pause:hover{
-   animation-play-state: paused;
-}
-
-body {
-  background-color: #6f9e80;
-  margin: 0;
-  font-family: sans-serif;
-  padding: 20px;
-}
-
-@keyframes example {
-    0% {left: 0;}
-    100% {left: 100vw;}
-}
-
-
-img{
-  width: 300px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-	animation-name: example;
-animation-duration: 10s;
-animation-iteration-count: 2;
-animation-timing-function: linear;}
-
-.pause:hover{
-   animation-play-state: paused;
-}
-}
-
-.pause:hover{
-   animation-play-state: paused;
+.sq_1{
+	background-color: #c0392b;
+	left: 90px;
+	top: 90px;
 }

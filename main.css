@@ -158,7 +158,12 @@ padding-bottom: 115px;
   color: #22a030;
 }
 
-
+.features__border {
+	width: 100%;
+  border: 1px solid #E6EAF4;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .form_container {
 	width: 550px;
 }

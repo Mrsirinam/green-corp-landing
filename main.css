@@ -48,6 +48,17 @@ button:hover {
 	box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
 }
 
+.about {
+position: relative;
+}
+
+.orb-canvas {
+position: absolute;
+top: 0;
+right: 0;
+height: 100%;
+
+}
 .about_image {
 width: 500px;
 }

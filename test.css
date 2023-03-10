@@ -1,0 +1,18 @@
+
+
+body {
+	background-color: #6f9e80;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.card{
+	padding: 10px;
+	margin: 10px;
+	display: inline-block;
+	background-color: #95a5a6;
+}
+
+#rainbow{
+	color: #95a5a6;
+}

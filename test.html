@@ -1,31 +1,41 @@
 <!DOCTYPE html>
+<html lang="en"></html>
+<link rel="stylesheet" href="test.css">
 <html>
 <head>
-	<meta charset="utf-8">
 </head>
+
 <body>
-	<div class="card">
-		<div class="content">
-		 <p>Удачи в решении задачи!</p>
-		 <ul class="cars">
-				<li>Audi</li><li>BMW</li><li>Hyundai</li>
-		 </ul>
-		 <ul>
-				<li>Mazda</li><li>Peugeot</li><li>Toyota</li>
-		 </ul>
-		</div>
-	</div>
-	 
+
+	<section class="card">
+		<select id="numbers">
+		</select>
+	 </section>
+<!-- 
+	<section class="card">
+		<div id="div_elem"></div>
+	 </section> -->
+
+
 	 <script>
- let cars = []
-	const arrLi= document.querySelectorAll(".cars li");
-	arrLi.forEach(el => cars.push(el.innerHTML))
-	console.log(cars)
+	let select = document.querySelector("#numbers")
+	console.log(select);
+	let option = document.createElement("option.value");
+	ooption.type = "number";
+	option.min = "10";
+	option.max = "550";
+	option.step = "10";
+	option.name = "value";
+	//document.body.append(option);
+	// console.log(option);
+	 select.prepend(option)
+	// console.log(select);
 
-	
+
 	</script>
+</body>
 
-	
+
 
 
 </body>

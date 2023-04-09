@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cats</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<button class="add btn">
+		<i class="fa solid fa-plus"></i>
+</button>
+	<div class="wrapper"></div>
+	<div class="wrapper"></div>
+	<div class="modal-block">
+			<div class="modal">
+				<button class="modal-close btn">
+					<i class="fa-regular fa-circle-xmark"></i>
+			</button>
+					<h2>Добавить котика</h2>
+					<form id="add">
+						<!-- <div>
+						<input type="number" name="id" placeholder="ID кота" required>
+					</div> -->
+					<div>
+						<input type="text" name="name" placeholder="Имя котика" > 
+						<!-- required -->
+					</div>
+					<div>
+						<input type="text" name="image" placeholder="Фото">
+					</div>
+					<div class="preview"></div>
+					<div>		
+						<input type="number" name="age" placeholder="Возраст">
+					</div>
+					<div>
+						<input type="number" name="rate" placeholder="Рейтинг" min="0" max="5">
+					</div>
+					<div>
+						<label>
+						<input type="checkbox" name="favorite">Любимчик</label>
+					</div>
+						<button type="submit">Добавить</button>
+				</form>
+			</div>
+	</div>	</div>
+		
+		<script src="js/function.js"></script>
+		<script src="js/global.js"></script>
+		<script src="script.js"></script>
+
+
+</body>
+</html>

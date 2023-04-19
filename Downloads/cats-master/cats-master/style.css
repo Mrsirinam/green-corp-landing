@@ -1,0 +1,153 @@
+body {
+	margin: 0;
+font-family: sans-serif;
+}
+
+h2 {
+	margin: 0;
+}
+
+.wrapper	{
+	min-height: 100vh;
+	background-color: #FCDCEB;
+	padding: 30px;
+	margin: auto;
+	max-width: 1020px;
+	box-sizing: border-box ;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+	align-content: flex-start;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	padding-bottom: 12px;
+	align-items: center;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 0 15px darkviolet;
+	position: relative;
+}
+
+.card .like {
+	position: absolute;
+	right: 8px;
+	bottom: 8px;
+	color: darkviolet;
+	cursor: pointer;
+
+}
+
+.card .pic {
+	height: 200px;
+	width: 100%;
+	background-color: #fff;
+	background-image: url(https://oir.mobi/uploads/posts/2020-01/1579151657_20-35.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+
+.card__trash {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	bottom: 8px;
+	cursor: pointer;
+	color: grey;
+}
+.card__trash:hover {
+	color: blueviolet;
+}
+
+.pic.tmp {
+	/* background-image: url(image/default.png); */
+	/* background-size: contain; */
+	background-image: url(https://oir.mobi/uploads/posts/2020-01/1579151657_20-35.jpg);
+	background-size: auto 80%;
+
+}
+
+.btn {
+	outline: none;
+	border: none;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: blueviolet;
+	color: #fff;
+	font-size: 1.2rem;
+
+
+	cursor: pointer;
+}
+.add {
+	position: fixed;
+	bottom: 20px;
+	right:20px;
+	z-index: 10;
+}
+
+.btn:hover {
+	color: springgreen;
+	transform: scale(1.1, 1.1);
+}
+
+.modal-close {
+position: absolute;
+top: 8px;
+right: 8px;
+}
+
+
+.modal-block {
+background-color: rgba(62, 62, 62, 0.8);
+backdrop-filter: blur(2px);
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+display: none;
+justify-content: center;
+align-items: center;
+}
+
+.modal-block.active {
+	display: flex;
+}
+
+.modal {
+	background-color: #fff;
+	padding: 16px;
+	border-radius: 8px;
+	width: calc(100% - 100px);
+	max-width: 300px;
+	max-height: calc(100% - 100px);
+	overflow: auto;
+	position: relative;
+}
+
+form {
+	display: grid;
+	margin-top: 16px;
+	gap: 8px;
+}
+
+input {
+width: 100%;
+box-sizing: border-box;
+height: 30px;
+}
+
+.preview {
+	height: 200px;
+	background-color: #FCDCEB;
+	border-radius: 8px;
+	background-image: url(image/1549312329147951618.jpg);
+	background-position: center;
+	background-size: cover;
+}
